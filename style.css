@@ -72,7 +72,7 @@ ul.list i {
 .banner {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 100px;
   position: relative;
 }
 h1.banner-heading-text {
@@ -96,6 +96,7 @@ button.btn.btn-more {
 
 .idea-box {
   background-color: #314a5c;
+  position: relative;
   padding: 20px;
   border-radius: 10px;
   position: absolute;
@@ -151,4 +152,39 @@ h4.idea-text {
 .idea-img-one {
   max-width: 30px;
   vertical-align: middle;
+}
+
+/*  */
+
+.line {
+  width: 2px;
+  height: 60px;
+  background-color: #fff;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.ideal-line {
+  position: absolute;
+  right: 100px;
+  bottom: -60px;
+}
+.ideal-circle {
+  position: absolute;
+  bottom: -75px;
+  right: 93px;
+}
+.inovation-line {
+  position: absolute;
+  right: -31px;
+  top: 50px;
+  transform: rotate(90deg);
+}
+.circle.inovation-circle {
+  position: absolute;
+  right: -74px;
+  top: 72px;
 }
